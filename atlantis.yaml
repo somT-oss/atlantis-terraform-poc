@@ -1,6 +1,6 @@
 version: 3
 projects:
   - name: main
-    dir: main
+    dir: .
     autoplan:
-        when_modified: ["*.tf", "../modules/ec2/*.tf"]
+        when_modified: ["main/*.tf", "modules/ec2/*.tf"]
