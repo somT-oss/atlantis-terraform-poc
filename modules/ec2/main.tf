@@ -6,6 +6,6 @@ resource "aws_instance" "web" {
 
   tags = {
     Name = var.instance_name
-    Environment = "staging"
+    Environment = "dev"
   }
 }

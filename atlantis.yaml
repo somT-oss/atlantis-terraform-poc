@@ -2,3 +2,5 @@ version: 3
 projects:
   - name: main
     dir: main
+    autoplan:
+      when_modified: ["../modules/ec2/*.tf"]
