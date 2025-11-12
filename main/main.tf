@@ -16,5 +16,5 @@ module "ec2_instance" {
   ami           = "ami-0fa91bc90632c73c9"
   instance_type = "t3.micro"
   subnet_id     = "subnet-091df25f41ee31902"
-  instance_name = "atlantis-instance"
+  instance_name = "atlantis-instancee"
 }
